@@ -15,11 +15,11 @@ struct ContainerView: View {
                     Label("Daily", systemImage: "house.fill")
                 }
             
-            EmptyView()
+            ReportView()
                 .tabItem {
                     Label("Report", systemImage: "list.dash")
                 }
-            EmptyView()
+            ConsigliView()
                 .tabItem {
                     Label("Consigli", systemImage: "quote.bubble.fill")
                 }

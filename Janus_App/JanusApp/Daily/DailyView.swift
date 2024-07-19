@@ -18,7 +18,7 @@ struct DailyView: View {
 
     var body: some View {
         NavigationView {
-            Text("Hello")
+            Text("Daily View")
         }
         
         
