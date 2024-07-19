@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		582F303D2C4A9B68008875D4 /* DailyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582F30362C4A9B68008875D4 /* DailyView.swift */; };
+		582F303E2C4A9B68008875D4 /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582F30382C4A9B68008875D4 /* ReportView.swift */; };
+		582F303F2C4A9B68008875D4 /* ConsigliView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582F303A2C4A9B68008875D4 /* ConsigliView.swift */; };
+		582F30402C4A9B68008875D4 /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582F303C2C4A9B68008875D4 /* ContainerView.swift */; };
+		5864FC482C4A941000E91FFC /* JanusAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5864FC472C4A941000E91FFC /* JanusAppApp.swift */; };
+		5864FC4C2C4A941200E91FFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5864FC4B2C4A941200E91FFC /* Assets.xcassets */; };
+		5864FC4F2C4A941200E91FFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5864FC4E2C4A941200E91FFC /* Preview Assets.xcassets */; };
+		5864FC512C4A941200E91FFC /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5864FC502C4A941200E91FFC /* Persistence.swift */; };
+		5864FC542C4A941200E91FFC /* JanusApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5864FC522C4A941200E91FFC /* JanusApp.xcdatamodeld */; };
+		5864FC5E2C4A941200E91FFC /* JanusAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5864FC5D2C4A941200E91FFC /* JanusAppTests.swift */; };
+		5864FC682C4A941200E91FFC /* JanusAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5864FC672C4A941200E91FFC /* JanusAppUITests.swift */; };
+		5864FC6A2C4A941200E91FFC /* JanusAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5864FC692C4A941200E91FFC /* JanusAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5864FC5A2C4A941200E91FFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5864FC3C2C4A941000E91FFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5864FC432C4A941000E91FFC;
+			remoteInfo = JanusApp;
+		};
+		5864FC642C4A941200E91FFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5864FC3C2C4A941000E91FFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5864FC432C4A941000E91FFC;
+			remoteInfo = JanusApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		582F30362C4A9B68008875D4 /* DailyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyView.swift; sourceTree = "<group>"; };
+		582F30382C4A9B68008875D4 /* ReportView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
+		582F303A2C4A9B68008875D4 /* ConsigliView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsigliView.swift; sourceTree = "<group>"; };
+		582F303C2C4A9B68008875D4 /* ContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContainerView.swift; path = JanusApp/ContainerView.swift; sourceTree = "<group>"; };
+		5864FC442C4A941000E91FFC /* JanusApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JanusApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5864FC472C4A941000E91FFC /* JanusAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JanusAppApp.swift; sourceTree = "<group>"; };
+		5864FC4B2C4A941200E91FFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5864FC4E2C4A941200E91FFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5864FC502C4A941200E91FFC /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		5864FC532C4A941200E91FFC /* JanusApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JanusApp.xcdatamodel; sourceTree = "<group>"; };
+		5864FC592C4A941200E91FFC /* JanusAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JanusAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5864FC5D2C4A941200E91FFC /* JanusAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JanusAppTests.swift; sourceTree = "<group>"; };
+		5864FC632C4A941200E91FFC /* JanusAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JanusAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5864FC672C4A941200E91FFC /* JanusAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JanusAppUITests.swift; sourceTree = "<group>"; };
+		5864FC692C4A941200E91FFC /* JanusAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JanusAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5864FC412C4A941000E91FFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5864FC562C4A941200E91FFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5864FC602C4A941200E91FFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		582F30372C4A9B68008875D4 /* Daily */ = {
+			isa = PBXGroup;
+			children = (
+				582F30362C4A9B68008875D4 /* DailyView.swift */,
+			);
+			name = Daily;
+			path = JanusApp/Daily;
+			sourceTree = "<group>";
+		};
+		582F30392C4A9B68008875D4 /* Report */ = {
+			isa = PBXGroup;
+			children = (
+				582F30382C4A9B68008875D4 /* ReportView.swift */,
+			);
+			name = Report;
+			path = JanusApp/Report;
+			sourceTree = "<group>";
+		};
+		582F303B2C4A9B68008875D4 /* Consigli */ = {
+			isa = PBXGroup;
+			children = (
+				582F303A2C4A9B68008875D4 /* ConsigliView.swift */,
+			);
+			name = Consigli;
+			path = JanusApp/Consigli;
+			sourceTree = "<group>";
+		};
+		5864FC3B2C4A941000E91FFC = {
+			isa = PBXGroup;
+			children = (
+				582F303B2C4A9B68008875D4 /* Consigli */,
+				582F303C2C4A9B68008875D4 /* ContainerView.swift */,
+				582F30372C4A9B68008875D4 /* Daily */,
+				582F30392C4A9B68008875D4 /* Report */,
+				5864FC462C4A941000E91FFC /* JanusApp */,
+				5864FC5C2C4A941200E91FFC /* JanusAppTests */,
+				5864FC662C4A941200E91FFC /* JanusAppUITests */,
+				5864FC452C4A941000E91FFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5864FC452C4A941000E91FFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5864FC442C4A941000E91FFC /* JanusApp.app */,
+				5864FC592C4A941200E91FFC /* JanusAppTests.xctest */,
+				5864FC632C4A941200E91FFC /* JanusAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5864FC462C4A941000E91FFC /* JanusApp */ = {
+			isa = PBXGroup;
+			children = (
+				5864FC472C4A941000E91FFC /* JanusAppApp.swift */,
+				5864FC4B2C4A941200E91FFC /* Assets.xcassets */,
+				5864FC502C4A941200E91FFC /* Persistence.swift */,
+				5864FC522C4A941200E91FFC /* JanusApp.xcdatamodeld */,
+				5864FC4D2C4A941200E91FFC /* Preview Content */,
+			);
+			path = JanusApp;
+			sourceTree = "<group>";
+		};
+		5864FC4D2C4A941200E91FFC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5864FC4E2C4A941200E91FFC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5864FC5C2C4A941200E91FFC /* JanusAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5864FC5D2C4A941200E91FFC /* JanusAppTests.swift */,
+			);
+			path = JanusAppTests;
+			sourceTree = "<group>";
+		};
+		5864FC662C4A941200E91FFC /* JanusAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5864FC672C4A941200E91FFC /* JanusAppUITests.swift */,
+				5864FC692C4A941200E91FFC /* JanusAppUITestsLaunchTests.swift */,
+			);
+			path = JanusAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5864FC432C4A941000E91FFC /* JanusApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5864FC6D2C4A941300E91FFC /* Build configuration list for PBXNativeTarget "JanusApp" */;
+			buildPhases = (
+				5864FC402C4A941000E91FFC /* Sources */,
+				5864FC412C4A941000E91FFC /* Frameworks */,
+				5864FC422C4A941000E91FFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JanusApp;
+			productName = JanusApp;
+			productReference = 5864FC442C4A941000E91FFC /* JanusApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5864FC582C4A941200E91FFC /* JanusAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5864FC702C4A941300E91FFC /* Build configuration list for PBXNativeTarget "JanusAppTests" */;
+			buildPhases = (
+				5864FC552C4A941200E91FFC /* Sources */,
+				5864FC562C4A941200E91FFC /* Frameworks */,
+				5864FC572C4A941200E91FFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5864FC5B2C4A941200E91FFC /* PBXTargetDependency */,
+			);
+			name = JanusAppTests;
+			productName = JanusAppTests;
+			productReference = 5864FC592C4A941200E91FFC /* JanusAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5864FC622C4A941200E91FFC /* JanusAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5864FC732C4A941300E91FFC /* Build configuration list for PBXNativeTarget "JanusAppUITests" */;
+			buildPhases = (
+				5864FC5F2C4A941200E91FFC /* Sources */,
+				5864FC602C4A941200E91FFC /* Frameworks */,
+				5864FC612C4A941200E91FFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5864FC652C4A941200E91FFC /* PBXTargetDependency */,
+			);
+			name = JanusAppUITests;
+			productName = JanusAppUITests;
+			productReference = 5864FC632C4A941200E91FFC /* JanusAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5864FC3C2C4A941000E91FFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					5864FC432C4A941000E91FFC = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					5864FC582C4A941200E91FFC = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 5864FC432C4A941000E91FFC;
+					};
+					5864FC622C4A941200E91FFC = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 5864FC432C4A941000E91FFC;
+					};
+				};
+			};
+			buildConfigurationList = 5864FC3F2C4A941000E91FFC /* Build configuration list for PBXProject "JanusApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5864FC3B2C4A941000E91FFC;
+			productRefGroup = 5864FC452C4A941000E91FFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5864FC432C4A941000E91FFC /* JanusApp */,
+				5864FC582C4A941200E91FFC /* JanusAppTests */,
+				5864FC622C4A941200E91FFC /* JanusAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5864FC422C4A941000E91FFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5864FC4F2C4A941200E91FFC /* Preview Assets.xcassets in Resources */,
+				5864FC4C2C4A941200E91FFC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5864FC572C4A941200E91FFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5864FC612C4A941200E91FFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5864FC402C4A941000E91FFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582F303F2C4A9B68008875D4 /* ConsigliView.swift in Sources */,
+				5864FC512C4A941200E91FFC /* Persistence.swift in Sources */,
+				582F303E2C4A9B68008875D4 /* ReportView.swift in Sources */,
+				582F30402C4A9B68008875D4 /* ContainerView.swift in Sources */,
+				5864FC482C4A941000E91FFC /* JanusAppApp.swift in Sources */,
+				582F303D2C4A9B68008875D4 /* DailyView.swift in Sources */,
+				5864FC542C4A941200E91FFC /* JanusApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5864FC552C4A941200E91FFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5864FC5E2C4A941200E91FFC /* JanusAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5864FC5F2C4A941200E91FFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5864FC6A2C4A941200E91FFC /* JanusAppUITestsLaunchTests.swift in Sources */,
+				5864FC682C4A941200E91FFC /* JanusAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5864FC5B2C4A941200E91FFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5864FC432C4A941000E91FFC /* JanusApp */;
+			targetProxy = 5864FC5A2C4A941200E91FFC /* PBXContainerItemProxy */;
+		};
+		5864FC652C4A941200E91FFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5864FC432C4A941000E91FFC /* JanusApp */;
+			targetProxy = 5864FC642C4A941200E91FFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5864FC6B2C4A941200E91FFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5864FC6C2C4A941200E91FFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5864FC6E2C4A941300E91FFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JanusApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 96PF9Z4T28;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raffaelesiciliano.JanusApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5864FC6F2C4A941300E91FFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JanusApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 96PF9Z4T28;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raffaelesiciliano.JanusApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5864FC712C4A941300E91FFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 96PF9Z4T28;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raffaelesiciliano.JanusAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JanusApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JanusApp";
+			};
+			name = Debug;
+		};
+		5864FC722C4A941300E91FFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 96PF9Z4T28;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raffaelesiciliano.JanusAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JanusApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JanusApp";
+			};
+			name = Release;
+		};
+		5864FC742C4A941300E91FFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 96PF9Z4T28;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raffaelesiciliano.JanusAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JanusApp;
+			};
+			name = Debug;
+		};
+		5864FC752C4A941300E91FFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 96PF9Z4T28;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raffaelesiciliano.JanusAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JanusApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5864FC3F2C4A941000E91FFC /* Build configuration list for PBXProject "JanusApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5864FC6B2C4A941200E91FFC /* Debug */,
+				5864FC6C2C4A941200E91FFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5864FC6D2C4A941300E91FFC /* Build configuration list for PBXNativeTarget "JanusApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5864FC6E2C4A941300E91FFC /* Debug */,
+				5864FC6F2C4A941300E91FFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5864FC702C4A941300E91FFC /* Build configuration list for PBXNativeTarget "JanusAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5864FC712C4A941300E91FFC /* Debug */,
+				5864FC722C4A941300E91FFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5864FC732C4A941300E91FFC /* Build configuration list for PBXNativeTarget "JanusAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5864FC742C4A941300E91FFC /* Debug */,
+				5864FC752C4A941300E91FFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5864FC522C4A941200E91FFC /* JanusApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5864FC532C4A941200E91FFC /* JanusApp.xcdatamodel */,
+			);
+			currentVersion = 5864FC532C4A941200E91FFC /* JanusApp.xcdatamodel */;
+			path = JanusApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5864FC3C2C4A941000E91FFC /* Project object */;
+}
